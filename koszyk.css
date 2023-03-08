@@ -1,0 +1,143 @@
+.container {
+	margin: 20px auto;
+	width: 600px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: arial;
+}
+
+.produkty {
+	margin: 10px 0;
+}
+
+.produkt {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.nazwa {
+	flex-basis: 70%;
+	font-weight: bold;
+    font-family: arial;
+}
+
+.cena {
+	flex-basis: 20%;
+	text-align: right;
+    font-family: arial;
+}
+
+.suma {
+	margin-top: 10px;
+	font-weight: bold;
+    font-family: arial;
+}
+.koszyk {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .koszyk h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: arial;
+  }
+  
+  .koszyk ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .koszyk li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .koszyk li:last-child {
+    border-bottom: none;
+  }
+  
+  .koszyk li span {
+    flex-basis: 50%;
+  }
+  
+  .koszyk li form {
+    flex-basis: 50%;
+    text-align: right;
+    font-family: arial;
+  }
+  
+  .koszyk li form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .koszyk p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: arial;
+  }
+  
+  .koszyk form {
+    margin-top: 20px;
+  }
+  
+  .koszyk form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .koszyk form input[type="text"] {
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .back {
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+    margin: 20px auto;
+	width: 200px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: arial;
+  }
+
+  .back .a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
